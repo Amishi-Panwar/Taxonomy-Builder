@@ -1,0 +1,11 @@
+Class: Person
+Class: Course
+	SubClassOf: not Person
+Class: UGC
+	SubClassOf: Course
+Class: PGC
+	SubClassOf: Course
+Class: Teacher
+	SubClassOf: teaches some Course, Person
+Class: Student
+	SubClassOf: attends some Course, Person
